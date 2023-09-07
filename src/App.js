@@ -1,7 +1,13 @@
 import "./App.css";
+import CourseList from "./CourseList"; 
 
 function App({ courses }) {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <h1>Courses</h1>
+      <CourseList courses={courses} />
+    </div>
+  );
 }
 
 // These are default prop values for the App component
@@ -17,3 +23,4 @@ App.defaultProps = {
 };
 
 export default App;
+
