@@ -42,8 +42,7 @@ The Course component should accept three props:
 - studentPositions - number
 
 The Course component should render the following DOM structure.
-´´´
-
+```
 <div className="course">
       <h2>{name}</h2>
       <p>{courseId}</p>
